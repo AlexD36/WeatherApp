@@ -5,7 +5,7 @@ Language: English
 
 Features to be implemented:
 -Current Weather Displa
--Location-Based Weather
+-Location-based Weather
 -Search by City
 -Responsive Design
 -Sleek and Minimalistic Interface
