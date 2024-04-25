@@ -6,12 +6,13 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 665px;
     margin: 50px auto;
     padding: 180px;
     text-align: center;
     background-image: url('images/container.png');
-    background-size: cover;
+    background-size: auto;
+background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.75); 
@@ -37,8 +38,8 @@ body {
 }
 
 .weather-header{
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 15px rgb(60, 60, 60), 0 0 10px rgb(76, 76, 76);
+    color: #212121;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #3296d8, 0 0 30px #568ede, 0 0 40px #1177ba, 0 0 55px #29a8d7, 0 0 75px #007be7;
     box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
