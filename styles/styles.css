@@ -19,13 +19,40 @@ body {
     border-color: whitesmoke;
 }
 
+.container-header{
+    margin-top: -40px;
+    color: #212121;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffe018, 0 0 30px #ffb218, 0 0 40px #ff4218, 0 0 55px #d8ff18, 0 0 75px #fff018;
+}
+
 .weather-info {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
+    background: rgba(255,255,255,0.6);
+    background: repeating-radial-gradient(circle farthest-corner at center center, rgb(255, 255, 255,0.55) 0%, rgb(111, 184, 209,0.6) 20%);
+    background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, rgba(255,255,255,0.55) 0%, rgba(111, 184, 209,0.6) 20%);
+    background: -moz-repeating-radial-gradient(circle farthest-corner at center center, rgba(255,255,255,0.55) 0%, rgba(111, 184, 209,0.6) 20%);
+}
+
+.weather-header{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(60, 60, 60), 0 0 10px rgb(76, 76, 76);
+    box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 23px 1px rgba(0,0,0,0.75);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    text-align: center;
 }
 
 .current-weather {
     margin-top: 20px;
+    text-shadow: -1px 4px 5px rgba(0,0,0,0.6);
 }
