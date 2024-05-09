@@ -3,8 +3,4 @@ Being built using HTML, CSS, and JavaScript, this lightweight application will f
 
 Language: English
 
-Features to be implemented:
--Current Weather Display
--Location-based Weather
--Responsive Design
--Sleek and Minimalistic Interface
+
